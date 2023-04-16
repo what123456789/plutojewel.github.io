@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contactus.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <header>
+        <nav>
+            <ul>
+        <a href="homepage.html"><li class="logo"><img src="images/pluto. (2).png"></a></li>
+        <li class="items"><a href="homepage.html">Home</a></li>
+        <li class="items"><a href="product.html">Products</a></li>
+        <li class="items"><a href="contactus.html">Contact Us</a></li>
+        <li class="items"><a href="howto.html">How To</a></li>
+        <li class="items"><a href="register.html"><i class="fa-solid fa-user"></i></a></li>
+        <li class="items"><a href="yourcart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li class="btn"><a href="#"><i class="fa-solid fa-bars"></i></li></a>
+        </ul>
+        </nav>
+        <script>
+            $(document) .ready(function() {
+                $('.btn') .click(function() {
+                    $('.items') .toggleClass("show");
+                    $('ul li') .toggleClass("hide");
+                });
+            });
+        </script>
+    </header>
+    <body>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Feel free to contact us if you have any queries.</p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                        <div class="text">
+                            <h3>Our working hours</h3>
+                            <p>Mon - Fri: 8:00a.m. - 8p.m.<br>Sat - Sun: 8:00a.m. - 6p.m.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <h3>Our Phone Number</h3>
+                                <p>+60392820704</p>
+                            </div>
+                        </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text">
+                                <h3>Location</h3>
+                                <p>21, Jalan Kenari 9<br>Bandar Puchong Jaya, 47100<br>Selangor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactForm">
+                        <form>
+                            <h2>Send Us Message</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="email" name="" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required"></textarea>
+                                <span>Type your Message...</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name="" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col">
+                    <h3>About Us</h3>
+                    <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="websitepolicy.html">Website Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Get Help</h3>
+                    <ul>
+                    <li><a href="howto.html">How To</a></li>
+                    <li><a href="trackorder.html">Track your Orders</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    </ul>
+            </div>
+            <div class="footer-col">
+                    <h3>Social Media</h3>
+                    <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>                
+        </div>
+    </div>
+</div><br>
+<section>
+    <div class="copyright">
+        <p>@Copyright 2023 Pluto Jewel Sdn. Bhd. All rights Reserved.</p>
+    </div>
+</section>
+    </body>

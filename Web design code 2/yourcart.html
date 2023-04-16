@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="yourcart.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <header>
+        <nav>
+            <ul>
+        <a href="homepage.html"><li class="logo"><img src="images/pluto. (2).png"></a></li>
+        <li class="items"><a href="homepage.html">Home</a></li>
+        <li class="items"><a href="product.html">Products</a></li>
+        <li class="items"><a href="contactus.html">Contact Us</a></li>
+        <li class="items"><a href="howto.html">How To</a></li>
+        <li class="items"><a href="register.html"><i class="fa-solid fa-user"></i></a></li>
+        <li class="items"><a href="yourcart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li class="btn"><a href="#"><i class="fa-solid fa-bars"></i></li></a>
+        </ul>
+        </nav>
+        <script>
+            $(document) .ready(function() {
+                $('.btn') .click(function() {
+                    $('.items') .toggleClass("show");
+                    $('ul li') .toggleClass("hide");
+                });
+            });
+        </script>
+    </header>
+    <body>
+        <div class="wrapper">
+            <h1>Your Cart</h1>
+            <div class="project">
+                <div class="shop">
+                    <div class="box">
+                        <img src="images/earrings.jpg" alt="">
+                        <div class="content">
+                            <h3>Women Earrings</h3>
+                            <h4>Price: RM 65</h4>
+                            <p class="unit">Quantity: <input value="2"></p>
+                            <p class="btn-area">
+                                <i class="fa-solid fa-trash"></i>
+                                <span class="btn2">Remove</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bracelets.jpg" alt="">
+                        <div class="content">
+                            <h3>Women Bracelets</h3>
+                            <h4>Price: RM 90</h4>
+                            <p class="unit">Quantity: <input value="1"></p>
+                            <p class="btn-area">
+                                <i class="fa-solid fa-trash"></i>
+                                <span class="btn2">Remove</span>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/necklace.jpg" alt="">
+                <div class="content">
+                    <h3>Women Necklaces</h3>
+                    <h4>Price: RM 100</h4>
+                    <p class="unit">Quantity: <input value="1"></p>
+                    <p class="btn-area">
+                        <i class="fa-solid fa-trash"></i>
+                        <span class="btn2">Remove</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-bar">
+            <p><span>Subtotal</span> <span>RM 320</span></p>
+            <hr>
+            <p><span>Tax</span> <span>RM 3.50</span></p>
+            <hr>
+            <p><span>Shipping</span> <span>RM 11</span></p>
+            <hr>
+            <p><span>Total</span> <span>RM 334.50</span></p>
+
+            <a href="checkout.html"><i class="fa-solid fa-tag"></i> Checkout</a>
+        </div>
+        </div>
+        </div>
+        <br>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col">
+                    <h3>About Us</h3>
+                    <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="websitepolicy.html">Website Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Get Help</h3>
+                    <ul>
+                    <li><a href="howto.html">How To</a></li>
+                    <li><a href="trackorder.html">Track your Orders</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    </ul>
+            </div>
+            <div class="footer-col">
+                    <h3>Social Media</h3>
+                    <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>                
+        </div>
+    </div>
+</div><br>
+<section>
+    <div class="copyright">
+        <p>@Copyright 2023 Pluto Jewel Sdn. Bhd. All rights Reserved.</p>
+    </div>
+</section>
+</body>
+</html>       

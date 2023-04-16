@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="faq.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <header>
+        <nav>
+            <ul>
+        <a href="homepage.html"><li class="logo"><img src="images/pluto. (2).png"></a></li>
+        <li class="items"><a href="homepage.html">Home</a></li>
+        <li class="items"><a href="product.html">Products</a></li>
+        <li class="items"><a href="contactus.html">Contact Us</a></li>
+        <li class="items"><a href="howto.html">How To</a></li>
+        <li class="items"><a href="register.html"><i class="fa-solid fa-user"></i></a></li>
+        <li class="items"><a href="yourcart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li class="btn"><a href="#"><i class="fa-solid fa-bars"></i></li></a>
+        </ul>
+        </nav>
+        <script>
+            $(document) .ready(function() {
+                $('.btn') .click(function() {
+                    $('.items') .toggleClass("show");
+                    $('ul li') .toggleClass("hide");
+                });
+            });
+        </script>
+    </header>
+    <body>
+        <div class="container">
+            <h1>Frequently asked Questions?</h1>
+            <div class="tab">
+                <input type="radio" name="acc" id="acc1">
+                <label for="acc1">
+                    <h2>01</h2>
+                    <h3>Can I cancel or edit my orders?</h3>
+                </label>
+                <div class="content"><p>Sadly to inform you once the orders are processed it cannot be edit or cancel. Please check your orders details carefully before checkout.</p></div>
+            </div>
+                <div class="tab">
+                    <input type="radio" name="acc" id="acc2">
+                    <label for="acc2">
+                        <h2>02</h2>
+                        <h3>How long does it take to process my orders?</h3>
+                    </label>
+                    <div class="content"><p>You could refer to the shipping page for more info.</p></div>
+        </div>
+        <div class="tab">
+            <input type="radio" name="acc" id="acc3">
+            <label for="acc3">
+                <h2>03</h2>
+                <h3>How do I check the status of my orders</h3>
+            </label>
+            <div class="content"><p>Notification will be send to your email with your order number and details after the payment is made. Once your order has been processed, you will receive the shipping tracking information via email.</p></div>
+    </div>
+    <div class="tab">
+        <input type="radio" name="acc" id="acc4">
+        <label for="acc4">
+            <h2>04</h2>
+            <h3>What are the payment methods available?</h3>
+        </label>
+        <div class="content"><p>Currently, we only accept Visa, Mastercard, Paypal, American Express and Maestro.</p></div>
+    </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                <h3>About Us</h3>
+                <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="websitepolicy.html">Website Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Get Help</h3>
+                <ul>
+                <li><a href="howto.html">How To</a></li>
+                <li><a href="trackorder.html">Track your Orders</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="shipping.html">Shipping</a></li>
+                </ul>
+        </div>
+        <div class="footer-col">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>                
+    </div>
+</div>
+</div><br>
+<section>
+<div class="copyright">
+    <p>@Copyright 2023 Pluto Jewel Sdn. Bhd. All rights Reserved.</p>
+</div>
+</section>
+    </body>
+</html>

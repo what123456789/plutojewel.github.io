@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="trackorder.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <header>
+        <nav>
+            <ul>
+        <a href="homepage.html"><li class="logo"><img src="images/pluto. (2).png"></a></li>
+        <li class="items"><a href="homepage.html">Home</a></li>
+        <li class="items"><a href="product.html">Products</a></li>
+        <li class="items"><a href="contactus.html">Contact Us</a></li>
+        <li class="items"><a href="howto.html">How To</a></li>
+        <li class="items"><a href="register.html"><i class="fa-solid fa-user"></i></a></li>
+        <li class="items"><a href="yourcart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li class="btn"><a href="#"><i class="fa-solid fa-bars"></i></li></a>
+        </ul>
+        </nav>
+        <script>
+            $(document) .ready(function() {
+                $('.btn') .click(function() {
+                    $('.items') .toggleClass("show");
+                    $('ul li') .toggleClass("hide");
+                });
+            });
+        </script>
+    </header>
+    <body>
+        <div class="body-container">
+        <div class="container">
+            <div class="details">
+                <div class="order">
+                    <h1>Order ID: <span>456789</span></h1>
+                </div>
+                <div class="date">
+                    <p>Expected Arrival: 22/5/2023</p>
+                    <p>J&T <b> 123456789</b></p>
+                </div>
+            </div>
+            <div class="track">
+                <ul id="progress" class="text-center">
+                    <li class="active"></li>
+                    <li class="active"></li>
+                    <li class="active"></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+            <div class="lists">
+                <div class="list">
+                <img src="images/order completed.png" alt="">
+                <p>Order <br> Processed</p>
+                </div>
+                    <div class="list">
+                    <img src="images/order packed.jpg" alt="">
+                    <p>Order <br> Packed</p>
+                </div>
+                <div class="list">
+                <img src="images/order shipped.png" alt="">
+                <p>Order <br> Shipping</p>
+                </div>
+                    <div class="list">
+                    <img src="images/order arrived.jpg" alt="">
+                    <p>Order <br> Arrived</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                <h3>About Us</h3>
+                <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="websitepolicy.html">Website Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Get Help</h3>
+                <ul>
+                <li><a href="howto.html">How To</a></li>
+                <li><a href="trackorder.html">Track your Orders</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="shipping.html">Shipping</a></li>
+                </ul>
+        </div>
+        <div class="footer-col">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>                
+    </div>
+</div>
+</div><br>
+<section>
+<div class="copyright">
+    <p>@Copyright 2023 Pluto Jewel Sdn. Bhd. All rights Reserved.</p>
+</div>
+</section>
+</body>
+</html>       
